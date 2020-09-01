@@ -5,5 +5,8 @@ SPA must have a form for adding bikes which must contains of fields:
   - Type(road/mountain) - drop down list
   - Rent price - number field
 <br/><br/>
-Under form for adding bikes must show up two bike lists: "Available bikes". <br/>
-After clicking on the "Submmit rent" button the bike must swow up in the "Available bikes" list.
+Under form for adding bikes must show up two bike lists: "Available bikes" and "Rented bikes". <br/>
+After clicking on the "Submit rent" the bike must swow up in "Available bikes" list.
+<br/>
+User can rent bike from "Available bikes" list. There are two buttons in front of each bike: "Rent" and "Delete".<br/>
+After clicking on the "Rent" the bike must disappear from "Available bikes" and show up in "Rented bikes".<br/>  

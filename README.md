@@ -1,6 +1,6 @@
-<h2>Preview</h2>
+<h2>RentMeApp Preview</h2>
 <img src="GitPreview/Capture.PNG" />
-<h2>RentMeApp - this SPA can help you to rent a bike.</h2>
+<h3>RentMeApp - this SPA can help you to rent a bike.</h3>
 <h3>Tech. task</h3
 <p>SPA must have a form for adding bikes which must contains of fields:</p>
 <ul>

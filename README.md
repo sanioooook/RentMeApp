@@ -1,3 +1,5 @@
+## Preview
+<img src="" />
 ## RentMeApp - this SPA can help you to rent a bike.
 ### Tech. task
 <p>SPA must have a form for adding bikes which must contains of fields:</p>

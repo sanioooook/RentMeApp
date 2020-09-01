@@ -1,4 +1,4 @@
-<h2>RentMeApp Preview</h2>
+<h2>RentMeApp - Preview</h2>
 <img src="GitPreview/Capture.PNG" />
 <h3>RentMeApp - this SPA can help you to rent a bike.</h3>
 <h3>Tech. task</h3

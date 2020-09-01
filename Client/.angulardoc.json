@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "projects": {
+    "rentapp": {
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "src",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "assets": [
+              "src/assets"
+            ],
+            "tsConfig": "tsconfig.json",
+            "aot": true
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "namedChunks": false,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "rentapp:build"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "rentapp",
+  "repoId": "94e93ea3-1ae3-481a-ac81-47fcc972c777",
+  "lastSync": 0
+}

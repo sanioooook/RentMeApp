@@ -1,0 +1,60 @@
+<h1>Awesome Bike Rental</h1>
+
+<div class="new-r">
+    <div class="nr-img"><img id="moneyImg" src="../assets/images/money.png" /></div>
+    <div class="nr-sign">Create new rent</div>
+</div>
+
+<div class="add-bike">
+    <div class="form-group">
+        <label>Bike name</label>
+        <input type="text" [(ngModel)]="bikeForFront.title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Bike type</label>
+        <select [(ngModel)]="bikeForFront.type" class="form-control" >
+            <option value="Road">Road</option>
+            <option value="Mountain">Mountain</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Rent Price</label>
+        <input type="number" [(ngModel)]="bikeForFront.price" class="form-control" />
+    </div>
+    <div id="add-bt-wrap">
+        <input id="add-bt" type="button" value="Submit rent" (click)="createBike()" class="btn btn-success form-control" />
+    </div>
+</div>
+<br/>
+<div class="your-r">
+    <div class="yr-img"><img id="starImg" src="../assets/images/star.png" /></div>
+    <div class="yr-sign">Your rent : Rented bikes ({{RentedBikes?.length}}) / Total: ${{sumRent()}}</div>
+</div>
+
+<div *ngFor="let b of RentedBikes">
+    <div class="main-wrap">
+        <div class="left-wrap">
+            <h5>{{b?.title}} / {{b?.type}} / ${{b?.price}}</h5>
+        </div>
+        <div class="right-wrap">
+            <button id="cancelBt" class="btn btn-sm btn-danger" (click)="updateRentedBike(b.id)">Cancel rent</button>
+        </div>
+    </div>
+</div>
+<br/>
+<div class="available-h">
+    <div class="av-img"><img id="bikeImg" src="../assets/images/bike.png"/></div>
+    <div class="av-sign">Available bikes ({{AvailableBikes?.length}})</div>
+</div>
+
+<div *ngFor="let b of AvailableBikes" class="available-b">
+    <div class="main-wrap">
+        <div class="left-wrap">
+            <h5>{{b?.title}} / {{b?.type}} / ${{b?.price}}</h5>
+        </div>
+        <div class="right-wrap">
+            <button id="rentBt" class="btn btn-sm btn-primary" (click)="updateAvailableBike(b.id)">Rent</button>
+            <button id="cancelBt" class="btn btn-sm btn-danger" (click)="delete(b.id)">Delete</button>
+        </div>
+    </div>
+</div>

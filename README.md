@@ -32,7 +32,7 @@ To end the rent User must click <b>"Cancel rent"</b> in front of the bike of "Re
   <li>Rent price ($)</li>
   <li>Status of the rent (Free / Rented)</li>
 </b></ul>
-<ul><b>Technologies used
+<b>Technologies used
     <ul>
       <li>Frontend</li>
         <ul>
@@ -51,4 +51,3 @@ To end the rent User must click <b>"Cancel rent"</b> in front of the bike of "Re
           <li>Entity Framework</li>
         </ul>
   </ul></b>
-</ul>

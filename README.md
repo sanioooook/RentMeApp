@@ -2,22 +2,22 @@
 <img src="GitPreview/Capture.PNG" />
 <h3>Installation tutorial</h3>
 <h3>Client</h3>
-<ul>
+<ul><b>
   <li>npm install</li>
   <li>ng serve</li>
-</ul>
+</ul></b>
 <h3>Server</h3>
-<ul>
+<ul><b>
   <li>Run server as Kestrel server</li>
-</ul>
+</ul></b>
 <h3>Tech. task</h3
-<p>SPA must have a form for adding bikes which must contains of fields:</p>
-<ul>
+<p>SPA must have a <b>form for adding bikes</b> which must contains of fields:</p>
+<ul><b>
   <li>Title - text field</li>
   <li>Type (Road / Mountain) - drop down list</li>
   <li>Rent price - number field</li>
-</ul>
-<p>Under form for adding bikes must show up two bike lists: "Available bikes" and "Rented bikes".</p>
+</ul></b>
+<p>Under form for adding bikes must show up <b>two bike lists</b>: <b>"Available bikes"</b> and <b>"Rented bikes"</b>.</p>
 <p>After clicking on the "Submit rent" the bike must swow up in "Available bikes" list.</p>
 <p>User can rent bike from "Available bikes" list. There are two buttons in front of each bike: "Rent" and "Delete".
 After clicking on the "Rent" the bike must disappear from "Available bikes" and show up in "Rented bikes".
@@ -32,7 +32,7 @@ To end the rent the User must click "Cancel rent" in front of the bike of "Rente
   <li>Rent price ($)</li>
   <li>Status of the rent (Free / Rented)</li>
 </ul>
-<ul>Technologies used
+<ul><b>Technologies used
     <ul>
       <li>Frontend</li>
         <ul>
@@ -50,5 +50,5 @@ To end the rent the User must click "Cancel rent" in front of the bike of "Rente
           <li>SQL Server</li>
           <li>Entity Framework</li>
         </ul>
-    </ul>
+  </ul></b>
 </ul>

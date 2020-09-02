@@ -1,12 +1,12 @@
 <h2>RentMeApp - Preview</h2>
 <img src="GitPreview/Capture.PNG" />
 <h3>Installation tutorial</h3>
-<h2>Client</h2>
+<h3>Client</h3>
 <ul>
   <li>npm install</li>
   <li>ng serve</li>
 </ul>
-<h2>Server</h2>
+<h3>Server</h3>
 <ul>
   <li>Run server as Kestrel server</li>
 </ul>

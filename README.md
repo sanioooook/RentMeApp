@@ -32,8 +32,8 @@ To end the rent User must click <b>"Cancel rent"</b> in front of the bike of "Re
   <li>Rent price ($)</li>
   <li>Status of the rent (Free / Rented)</li>
 </b></ul>
-<b>Technologies used
-    <ul>
+<h3>Technologies used</h3>
+    <b><ul>
       <li>Frontend</li>
         <ul>
           <li>JS (Angular)</li>

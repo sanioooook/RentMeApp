@@ -24,7 +24,7 @@ After clicking on the "<b>Rent"</b> the bike must disappear from "Available bike
 To end the rent User must click <b>"Cancel rent"</b> in front of the bike of "Rented bikes" and the bike must be returned to the "Available bikes".</p>
 <p>Before each list must show up <b>count of elements inside</b>.</p>
 <p>Whole information must be stored on the server in the database and automatically be loaded when the page is reloaded.</p>
-<p><b>Server</b> side must have <b>CRUD</b> operations</p>
+<p><b>Server</b> side must have <b>CRUD</b> operations.</p>
 <p><b>Database</b> must have table with bikes. Bike must have all of required fields:</p>
 <ul><b>
   <li>Title</li>

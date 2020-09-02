@@ -1,6 +1,11 @@
 <h2>RentMeApp - Preview</h2>
 <img src="GitPreview/Capture.PNG" />
-<h3>RentMeApp - this SPA can help you to rent a bike.</h3>
+<h3>Installation tutorial</h3>
+<h2>Client</h2>
+<p>npm install</p>
+<p>ng serve</p>
+<h2>Server</h2>
+<p>Run server as Kestrel server</p>
 <h3>Tech. task</h3
 <p>SPA must have a form for adding bikes which must contains of fields:</p>
 <ul>

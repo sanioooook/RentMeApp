@@ -2,10 +2,14 @@
 <img src="GitPreview/Capture.PNG" />
 <h3>Installation tutorial</h3>
 <h2>Client</h2>
-<p>npm install</p>
-<p>ng serve</p>
+<ul>
+  <li>npm install</li>
+  <li>ng serve</li>
+</ul>
 <h2>Server</h2>
-<p>Run server as Kestrel server</p>
+<ul>
+  <li>Run server as Kestrel server</li>
+</ul>
 <h3>Tech. task</h3
 <p>SPA must have a form for adding bikes which must contains of fields:</p>
 <ul>

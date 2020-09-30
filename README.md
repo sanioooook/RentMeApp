@@ -1,5 +1,5 @@
 <h2>RentMeApp - Preview</h2>
-<img src="GitPreview/Capture.PNG" />
+![Capture](https://user-images.githubusercontent.com/55942075/94714160-6c0f2480-0354-11eb-9fa6-21f6f85ba606.png)
 <h2>Installation tutorial</h2>
 <h3>Client</h3>
 <ul><b>
